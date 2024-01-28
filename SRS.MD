@@ -1,123 +1,211 @@
 
 # Software Requirement Specification (SRS) Document
 
-| Project Name: | HMS-Plus! |
+* * *
+
+</br></br></br></br>
+
+<div style="text-align:center;">for</div>
+
+</br><h2 style="text-align:center;">HMS-Plus!</h2>
+
+</br></br></br></br></br></br></br></br></br></br>
+
+<div style="margin-left: auto; margin-right: auto; width: 70%">
+
+| Document ID: | SOFTWARE-REQUIREMENT-SPECIFICATION-V0.1.1 |
 |---|---|
-|Document ID:|SOFTWARE-REQUIREMENT-SPECIFICATION-V0.1|
-|Version Number:|0.1|
-|Issue Date:|TBA|
-|Classification:|Public|
-* * *
-<p style="text-align: center;">Copyright © Soumyajit Kolay and Saurav Kumar, 2024</p>
-<div style="page-break-after: always; visibility: hidden"> 
-\pagebreak 
+| Version Number: | 0.1.1 |
+| Issue Date: | TBA |
+| Classification: | Draft |
+
 </div>
 
-## Revision History
+</br></br></br></br></br></br></br></br></br></br>
 
-|Date|Version|Description|Author(s)|
+<p style="text-align:center;">Copyright © 2024, Soumyajit Kolay and Saurav Kumar.</p>
+
+<div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
+
+# License
+
+BSD 3-Clause License
+
+Copyright (c) 2024, Soumyajit Kolay and Saurav Kumar.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+* * *
+
+# Revision History
+
+| Date | Version | Description | Author(s) |
 |---|---|---|---|
-|27-01-2024|0.1|Baseline SRS Template Added|Soumyajit Kolay|
+| 28-01-2024 | 0.1.1 | Added ToC, License, and Minor Template Changes | Soumyajit Kolay |
+| 27-01-2024 | 0.1.0 | Baseline SRS Template Added | Soumyajit Kolay |
+
+<div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
+
+# Table of Contents
+
+- [Introduction](#introduction)
+  - [Purpose](#purpose)
+  - [Document Conventions](#document-conventions)
+  - [Intended Audience](#intended-audience)
+  - [Project Scope](#project-scope)
+  - [References](#references)
+  - [Acronyms and Abbreviations](#acronyms-and-abbreviations)
+- [Overall Description](#overall-description)
+  - [Product Perspective](#product-perspective)
+  - [Product Features](#product-features)
+  - [User Classes and Characteristics](#user-classes-and-characteristics)
+  - [Operating Environment](#operating-environment)
+  - [Design and Implementation Constraints](#design-and-implementation-constraints)
+  - [User Documentation](#user-documentation)
+  - [Assumptions and Dependencies](#assumptions-and-dependencies)
+- [System Features](#system-features)
+  - [System Feature 1](#system-feature-1)
+    - [Description and Priority](#description-and-priority)
+    - [Stimulus/Response Sequences](#stimulusresponse-sequences)
+    - [Functional Requirements](#functional-requirements)
+  - [System Feature 2](#system-feature-2)
+- [External Interface Requirements](#external-interface-requirements)
+  - [User Interfaces](#user-interfaces)
+  - [Hardware Interfaces](#hardware-interfaces)
+  - [Software Interfaces](#software-interfaces)
+  - [Communication Interfaces](#communication-interfaces)
+- [Other Non-Functional Interfaces](#other-non-functional-interfaces)
+  - [Performance Requirements](#performance-requirements)
+  - [Safety Requirements](#safety-requirements)
+  - [Security Requirements](#security-requirements)
+  - [Software Quality Attributes](#software-quality-attributes)
+- [Other Miscellanous Requirements](#other-miscellanous-requirements)
+- [Appendices](#appendices)
+  - [Appendix A: Glossary](#appendix-a-glossary)
+  - [Appendix B: Analysis Models](#appendix-b-analysis-models)
+  - [Appendix C: Issues List](#appendix-c-issues-list)
+
+<div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
+
+# Introduction
+
+## Purpose
+
+## Document Conventions
+
+## Intended Audience
+
+## Project Scope
+
+## References
+
+## Acronyms and Abbreviations
+
 * * *
 
+<div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
-<sub><sup>Note: Since there are no customers for this project, customer reviews have not been considered in this document.</sup></sub>
-<div style="page-break-after: always; visibility: hidden"> 
-\pagebreak 
-</div>
+# Overall Description
 
-## Introduction
+## Product Perspective
 
-### Purpose
+## Product Features
 
-### Document Conventions
+## User Classes and Characteristics
 
-### Intended Audience
+## Operating Environment
 
-### Project Scope
+## Design and Implementation Constraints
 
-### References
+## User Documentation
 
-### Acronyms and Abbreviations
+## Assumptions and Dependencies
 
-<div style="page-break-after: always; visibility: hidden"> 
-\pagebreak 
-</div>
+* * *
 
-## Overall Description
+<div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
-###	Product Perspective
+# System Features
 
-###	Product Features
+## System Feature 1
 
-###	User Classes and Characteristics
+### Description and Priority
 
-###	Operating Environment
+### Stimulus/Response Sequences
 
-### Design and Implementation Constraints
+### Functional Requirements
 
-###	User Documentation
+## System Feature 2
 
-###	Assumptions and Dependencies
+* * *
 
-<div style="page-break-after: always; visibility: hidden"> 
-\pagebreak 
-</div>
+<div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
-## System Features
+# External Interface Requirements
 
-### System Feature 1
+## User Interfaces
 
-#### Description and Priority
+## Hardware Interfaces
 
-#### Stimulus/Response Sequences
+## Software Interfaces
 
-#### Functional Requirements
+## Communication Interfaces
 
-### System Feature 2
+* * *
 
-<div style="page-break-after: always; visibility: hidden"> 
-\pagebreak 
-</div>
+<div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
-## External Interface Requirements
+# Other Non-Functional Interfaces
 
-### User Interfaces
+## Performance Requirements
 
-### Hardware Interfaces
+## Safety Requirements
 
-### Software Interfaces
+## Security Requirements
 
-### Communication Interfaces
+## Software Quality Attributes
 
-<div style="page-break-after: always; visibility: hidden"> 
-\pagebreak 
-</div>
+* * *
 
-## Other Non-Functional Interfaces
+<div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
-### Performance Requirements
+# Other Miscellanous Requirements
 
-### Safety Requirements
+* * *
 
-### Security Requirements
+<div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
-### Software Quality Attributes
+# Appendices
 
-<div style="page-break-after: always; visibility: hidden"> 
-\pagebreak 
-</div>
+## Appendix A: Glossary
 
-## Other Miscellanous Requirements
+## Appendix B: Analysis Models
 
-<div style="page-break-after: always; visibility: hidden"> 
-\pagebreak 
-</div>
+## Appendix C: Issues List
 
-## Appendices
+* * *
 
-### Appendix A: Glossary
-
-### Appendix B: Analysis Models
-
-### Appendix C: Issues List
+Copyright © 2024, Soumyajit Kolay and Saurav Kumar.
