@@ -1,7 +1,6 @@
-
 # Software Requirement Specification (SRS) Document
 
-* * *
+---
 
 </br></br></br></br>
 
@@ -13,11 +12,11 @@
 
 <div style="margin-left: auto; margin-right: auto; width: 70%">
 
-| Document ID: | SOFTWARE-REQUIREMENT-SPECIFICATION-V0.1.1 |
-|---|---|
-| Version Number: | 0.1.1 |
-| Issue Date: | TBA |
-| Classification: | Draft |
+| Document ID:    | SOFTWARE-REQUIREMENT-SPECIFICATION-V0.2.0 |
+| --------------- | ----------------------------------------- |
+| Version Number: | 0.2.0                                     |
+| Issue Date:     | TBA                                       |
+| Classification: | Draft                                     |
 
 </div>
 
@@ -58,14 +57,15 @@ CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-* * *
+---
 
 # Revision History
 
-| Date | Version | Description | Author(s) |
-|---|---|---|---|
-| 28-01-2024 | 0.1.1 | Added ToC, License, and Minor Template Changes | Soumyajit Kolay |
-| 27-01-2024 | 0.1.0 | Baseline SRS Template Added | Soumyajit Kolay |
+| Date       | Version | Description                                    | Author(s)       |
+| ---------- | ------- | ---------------------------------------------- | --------------- |
+| 01-02-2024 | 0.2.0   | Added Proposal, scope and removed references   | Saurav Kumar    |
+| 28-01-2024 | 0.1.1   | Added ToC, License, and Minor Template Changes | Soumyajit Kolay |
+| 27-01-2024 | 0.1.0   | Baseline SRS Template Added                    | Soumyajit Kolay |
 
 <div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
@@ -114,17 +114,22 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ## Purpose
 
+The purpose of this document is to establish how the application should interact with the end user,
+and establish all application requirements functional, and non functional. Once finalized, this
+document will state what must be accomplished for the application to be considered finished.
+
 ## Document Conventions
 
 ## Intended Audience
 
 ## Project Scope
 
-## References
+This project is intended to be used only for demonstration of our technical skills and our ability to
+create documented projects. It has no target users and hence the development is done as per the developers.
 
 ## Acronyms and Abbreviations
 
-* * *
+---
 
 <div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
@@ -144,7 +149,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ## Assumptions and Dependencies
 
-* * *
+---
 
 <div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
@@ -160,7 +165,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ## System Feature 2
 
-* * *
+---
 
 <div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
@@ -174,7 +179,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ## Communication Interfaces
 
-* * *
+---
 
 <div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
@@ -188,13 +193,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ## Software Quality Attributes
 
-* * *
+---
 
 <div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
 # Other Miscellanous Requirements
 
-* * *
+---
 
 <div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
@@ -206,6 +211,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ## Appendix C: Issues List
 
-* * *
+---
 
 Copyright © 2024, Soumyajit Kolay and Saurav Kumar.
