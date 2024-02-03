@@ -63,6 +63,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 | Date       | Version | Description                                    | Author(s)       |
 | ---------- | ------- | ---------------------------------------------- | --------------- |
+| 03-02-2024 | 0.3.0   | Added intended audience                        | Saurav Kumar    |
 | 01-02-2024 | 0.2.0   | Added Proposal, scope and removed references   | Saurav Kumar    |
 | 28-01-2024 | 0.1.1   | Added ToC, License, and Minor Template Changes | Soumyajit Kolay |
 | 27-01-2024 | 0.1.0   | Baseline SRS Template Added                    | Soumyajit Kolay |
@@ -73,10 +74,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 - [Introduction](#introduction)
   - [Purpose](#purpose)
-  - [Document Conventions](#document-conventions)
   - [Intended Audience](#intended-audience)
   - [Project Scope](#project-scope)
-  - [References](#references)
   - [Acronyms and Abbreviations](#acronyms-and-abbreviations)
 - [Overall Description](#overall-description)
   - [Product Perspective](#product-perspective)
@@ -118,9 +117,9 @@ The purpose of this document is to establish how the application should interact
 and establish all application requirements functional, and non functional. Once finalized, this
 document will state what must be accomplished for the application to be considered finished.
 
-## Document Conventions
-
 ## Intended Audience
+
+The primary audience for the Hotel Management System encompasses professionals and decision-makers within the hospitality industry, specifically targeting hospitality firms ranging from boutique hotels to large-scale resorts. This software solution is meticulously designed to cater to the unique needs and challenges faced by businesses operating in the dynamic realm of hospitality.
 
 ## Project Scope
 
