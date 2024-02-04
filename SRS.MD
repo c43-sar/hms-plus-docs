@@ -63,6 +63,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 | Date       | Version | Description                                    | Author(s)       |
 | ---------- | ------- | ---------------------------------------------- | --------------- |
+| 04-02-2024 | 0.4.0   | Added Acronyms and Abbreviations               | Saurav Kumar    |
 | 03-02-2024 | 0.3.0   | Added intended audience                        | Saurav Kumar    |
 | 01-02-2024 | 0.2.0   | Added Proposal, scope and removed references   | Saurav Kumar    |
 | 28-01-2024 | 0.1.1   | Added ToC, License, and Minor Template Changes | Soumyajit Kolay |
@@ -127,6 +128,11 @@ This project is intended to be used only for demonstration of our technical skil
 create documented projects. It has no target users and hence the development is done as per the developers.
 
 ## Acronyms and Abbreviations
+
+| Term  | Description             |
+| ----- | ----------------------- |
+| HMS   | Hotel Management System |
+| Rooms | Hotem Rooms             |
 
 ---
 
