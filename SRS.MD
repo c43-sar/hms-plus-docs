@@ -14,7 +14,7 @@
 
 | Document ID:    | SOFTWARE-REQUIREMENT-SPECIFICATION-V0.2.0 |
 | --------------- | ----------------------------------------- |
-| Version Number: | 0.5.0                                     |
+| Version Number: | 0.5.1                                     |
 | Issue Date:     | TBA                                       |
 | Classification: | Draft                                     |
 
@@ -61,14 +61,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 # Revision History
 
-| Date       | Version | Description                                    | Author(s)       |
-| ---------- | ------- | ---------------------------------------------- | --------------- |
-| 04-02-2034 | 0.5.0   | Added external interfaces                      | Saurav Kumar    |
-| 04-02-2024 | 0.4.0   | Added Acronyms and Abbreviations               | Saurav Kumar    |
-| 03-02-2024 | 0.3.0   | Added intended audience                        | Saurav Kumar    |
-| 01-02-2024 | 0.2.0   | Added Proposal, scope and removed references   | Saurav Kumar    |
-| 28-01-2024 | 0.1.1   | Added ToC, License, and Minor Template Changes | Soumyajit Kolay |
-| 27-01-2024 | 0.1.0   | Baseline SRS Template Added                    | Soumyajit Kolay |
+| Date       | Version | Description                                       | Author(s)       |
+| ---------- | ------- | ------------------------------------------------- | --------------- |
+| 04-02-2024 | 0.5.1   | Updated Interfaces, Removed unneccessary portions | Soumyajit Kolay |
+| 04-02-2034 | 0.5.0   | Added external interfaces                         | Saurav Kumar    |
+| 04-02-2024 | 0.4.0   | Added Acronyms and Abbreviations                  | Saurav Kumar    |
+| 03-02-2024 | 0.3.0   | Added intended audience                           | Saurav Kumar    |
+| 01-02-2024 | 0.2.0   | Added Proposal, scope and removed references      | Saurav Kumar    |
+| 28-01-2024 | 0.1.1   | Added ToC, License, and Minor Template Changes    | Soumyajit Kolay |
+| 27-01-2024 | 0.1.0   | Baseline SRS Template Added                       | Soumyajit Kolay |
 
 <div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
@@ -121,12 +122,11 @@ document will state what must be accomplished for the application to be consider
 
 ## Intended Audience
 
-The primary audience for the Hotel Management System encompasses professionals and decision-makers within the hospitality industry, specifically targeting hospitality firms ranging from boutique hotels to large-scale resorts. This software solution is meticulously designed to cater to the unique needs and challenges faced by businesses operating in the dynamic realm of hospitality.
+The primary audience for the Hotel Management System encompasses professionals within the hospitality industry, specifically targeting hospitality firms ranging from boutique hotels to large-scale resorts. This software solution is meticulously designed to digitally cater to the basic needs of a hospitality organisation.
 
 ## Project Scope
 
-This project is intended to be used only for demonstration of our technical skills and our ability to
-create documented projects. It has no target users and hence the development is done as per the developers.
+This project is intended to be used only for demonstration of our technical skills and our ability to create documented projects. It has no target users and hence the development is planned as per the developers' intuition.
 
 ## Acronyms and Abbreviations
 
@@ -181,18 +181,21 @@ create documented projects. It has no target users and hence the development is 
 
 ## Hardware Interfaces
 
-[None]
+Devices capable of Java Runtime Environment v17+ with keyboard, display and mouse.
 
 ## Software Interfaces
 
-- Java (OpenJDK)
-- Maven
-- Javafx
-- PostgreSQL
-- Spring Boot
-- JDBC
+The following software(s) and/or libraries shall be used for the project:
+
+- _Java Platform with Maven:_ For compilation, building and running the projects.
+- _JavaFX:_ To enable GUI on Java Platform.
+- _PostgreSQL:_ For RDBMS.
+- _Spring Boot Framework:_ For back-end server.
+- _PostgreSQL JDBC Driver:_ To connect the Java-based project to RDBMS.
 
 ## Communication Interfaces
+
+To enable server-client communication, network is necessary. The server and the client computers chould be connected to the same WLAN/LAN via HTTP(S) and/or required protocols.
 
 ---
 
@@ -207,24 +210,6 @@ create documented projects. It has no target users and hence the development is 
 ## Security Requirements
 
 ## Software Quality Attributes
-
----
-
-<div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
-
-# Other Miscellanous Requirements
-
----
-
-<div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
-
-# Appendices
-
-## Appendix A: Glossary
-
-## Appendix B: Analysis Models
-
-## Appendix C: Issues List
 
 ---
 
