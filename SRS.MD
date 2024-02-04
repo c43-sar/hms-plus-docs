@@ -14,7 +14,7 @@
 
 | Document ID:    | SOFTWARE-REQUIREMENT-SPECIFICATION-V0.2.0 |
 | --------------- | ----------------------------------------- |
-| Version Number: | 0.2.0                                     |
+| Version Number: | 0.5.0                                     |
 | Issue Date:     | TBA                                       |
 | Classification: | Draft                                     |
 
@@ -63,6 +63,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 | Date       | Version | Description                                    | Author(s)       |
 | ---------- | ------- | ---------------------------------------------- | --------------- |
+| 04-02-2034 | 0.5.0   | Added external interfaces                      | Saurav Kumar    |
 | 04-02-2024 | 0.4.0   | Added Acronyms and Abbreviations               | Saurav Kumar    |
 | 03-02-2024 | 0.3.0   | Added intended audience                        | Saurav Kumar    |
 | 01-02-2024 | 0.2.0   | Added Proposal, scope and removed references   | Saurav Kumar    |
@@ -180,7 +181,16 @@ create documented projects. It has no target users and hence the development is 
 
 ## Hardware Interfaces
 
+[None]
+
 ## Software Interfaces
+
+- Java (OpenJDK)
+- Maven
+- Javafx
+- PostgreSQL
+- Spring Boot
+- JDBC
 
 ## Communication Interfaces
 
