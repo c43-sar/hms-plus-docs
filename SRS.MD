@@ -63,6 +63,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 | Date       | Version | Description                                       | Author(s)       |
 | ---------- | ------- | ------------------------------------------------- | --------------- |
+| 11-02-2024 | 0.6.1   | Minor Changes in System Features and Requirements | Soumyajit Kolay |
 | 11-02-2024 | 0.6.0   | Added Overall Description                         | Soumyajit Kolay |
 | 04-02-2024 | 0.5.1   | Updated Interfaces, Removed unneccessary portions | Soumyajit Kolay |
 | 04-02-2034 | 0.5.0   | Added external interfaces                         | Saurav Kumar    |
@@ -105,11 +106,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   - [Safety Requirements](#safety-requirements)
   - [Security Requirements](#security-requirements)
   - [Software Quality Attributes](#software-quality-attributes)
-- [Other Miscellanous Requirements](#other-miscellanous-requirements)
-- [Appendices](#appendices)
-  - [Appendix A: Glossary](#appendix-a-glossary)
-  - [Appendix B: Analysis Models](#appendix-b-analysis-models)
-  - [Appendix C: Issues List](#appendix-c-issues-list)
+  - [Miscellanous Requirements](#miscellanous-requirements)
 
 <div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
@@ -186,15 +183,29 @@ The would be a finite number of rooms and be used for a small number of Hotels, 
 
 # System Features
 
-## System Feature 1
+## RDBMS
 
-### Description and Priority
+### RDBMS - Description and Priority
 
-### Stimulus/Response Sequences
+### RDBMS - Stimulus/Response Sequences
 
-### Functional Requirements
+### RDBMS - Functional Requirements
 
-## System Feature 2
+## Server
+
+### Server - Description and Priority
+
+### Server - Stimulus/Response Sequences
+
+### Server - Functional Requirements
+
+## Client side GUI
+
+### GUI - Description and Priority
+
+### GUI - Stimulus/Response Sequences
+
+### GUI - Functional Requirements
 
 ---
 
@@ -235,6 +246,10 @@ To enable server-client communication, network is necessary. The server and the 
 ## Security Requirements
 
 ## Software Quality Attributes
+
+## Miscellanous Requirements
+
+[User Documentation](#user-documentation)
 
 ---
 
