@@ -61,17 +61,18 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 # Revision History
 
-| Date       | Version | Description                                       | Author(s)       |
-| ---------- | ------- | ------------------------------------------------- | --------------- |
-| 11-02-2024 | 0.6.1   | Minor Changes in System Features and Requirements | Soumyajit Kolay |
-| 11-02-2024 | 0.6.0   | Added Overall Description                         | Soumyajit Kolay |
-| 04-02-2024 | 0.5.1   | Updated Interfaces, Removed unneccessary portions | Soumyajit Kolay |
-| 04-02-2034 | 0.5.0   | Added external interfaces                         | Saurav Kumar    |
-| 04-02-2024 | 0.4.0   | Added Acronyms and Abbreviations                  | Saurav Kumar    |
-| 03-02-2024 | 0.3.0   | Added intended audience                           | Saurav Kumar    |
-| 01-02-2024 | 0.2.0   | Added Proposal, scope and removed references      | Saurav Kumar    |
-| 28-01-2024 | 0.1.1   | Added ToC, License, and Minor Template Changes    | Soumyajit Kolay |
-| 27-01-2024 | 0.1.0   | Baseline SRS Template Added                       | Soumyajit Kolay |
+| Date       | Version | Description                                                         | Author(s)                     |
+| ---------- | ------- | ------------------------------------------------------------------- | ----------------------------- |
+| 11-02-2024 | 0.6.1   | Added Requirements, Updated Contents and Reviewed SRS with Saurav   | Soumyajit Kolay, Saurav Kumar |
+| 11-02-2024 | 0.6.1   | Minor Changes in System Features and Requirements                   | Soumyajit Kolay               |
+| 11-02-2024 | 0.6.0   | Added Overall Description                                           | Soumyajit Kolay               |
+| 04-02-2024 | 0.5.1   | Updated Interfaces, Removed unneccessary portions                   | Soumyajit Kolay               |
+| 04-02-2034 | 0.5.0   | Added external interfaces                                           | Saurav Kumar                  |
+| 04-02-2024 | 0.4.0   | Added Acronyms and Abbreviations                                    | Saurav Kumar                  |
+| 03-02-2024 | 0.3.0   | Added intended audience                                             | Saurav Kumar                  |
+| 01-02-2024 | 0.2.0   | Added Proposal, scope and removed references                        | Saurav Kumar                  |
+| 28-01-2024 | 0.1.1   | Added ToC, License, and Minor Template Changes                      | Soumyajit Kolay               |
+| 27-01-2024 | 0.1.0   | Baseline SRS Template Added                                         | Soumyajit Kolay               |
 
 <div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
@@ -91,11 +92,18 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   - [User Documentation](#user-documentation)
   - [Assumptions and Dependencies](#assumptions-and-dependencies)
 - [System Features](#system-features)
-  - [System Feature 1](#system-feature-1)
-    - [Description and Priority](#description-and-priority)
-    - [Stimulus/Response Sequences](#stimulusresponse-sequences)
-    - [Functional Requirements](#functional-requirements)
-  - [System Feature 2](#system-feature-2)
+  - [Database](#database)
+    - [Database - Description and Priority](#database---description-and-priority)
+    - [Database - Stimulus/Response Sequences](#database---stimulusresponse-sequences)
+    - [Database - Functional Requirements](#database---functional-requirements)
+  - [Server](#server)
+    - [Server - Description and Priority](#server---description-and-priority)
+    - [Server - Stimulus/Response Sequences](#server---stimulusresponse-sequences)
+    - [Server - Functional Requirements](#server---functional-requirements)
+  - [Client Side GUI](#client-side-gui)
+    - [GUI - Description and Priority](#gui---description-and-priority)
+    - [GUI - Stimulus/Response Sequences](#gui---stimulusresponse-sequences)
+    - [GUI - Functional Requirements](#gui---functional-requirements)
 - [External Interface Requirements](#external-interface-requirements)
   - [User Interfaces](#user-interfaces)
   - [Hardware Interfaces](#hardware-interfaces)
@@ -183,29 +191,63 @@ The would be a finite number of rooms and be used for a small number of Hotels, 
 
 # System Features
 
-## RDBMS
+## Database
 
-### RDBMS - Description and Priority
+### Database - Description and Priority
 
-### RDBMS - Stimulus/Response Sequences
+Description: Database to store data of rooms, customers and billing details.
 
-### RDBMS - Functional Requirements
+Priority: <span style="color: red;">**High**<span>
+
+### Database - Stimulus/Response Sequences
+
+Will function as directed by the Server program via the JDBC driver.
+
+### Database - Functional Requirements
+
+(Refer to ER Model in the SDD)
 
 ## Server
 
 ### Server - Description and Priority
 
+A Java-based server application to facilitate backend operations, including User Authentication and performing Database Operations.
+
+Priority: <span style="color: red;">**High**<span>
+
 ### Server - Stimulus/Response Sequences
+
+The user can Start or Suspend the server.
 
 ### Server - Functional Requirements
 
-## Client side GUI
+- Connect to DB via JDBC
+- Authentication and Handling of User Login
+- Handle Client side requests via API
+- Add/Remove/Modify Users
+- Add/Remove/Modify Customers
+- Add/Remove/Modify Hotels
+- Add/Remove/Modify Rooms
+- Log Modifications with Timestamp on DB
+
+## Client Side GUI
 
 ### GUI - Description and Priority
 
+A JavaFX based GUI Application to ensure usability and enable API calls to the server application.
+
+Priority: <span style="color: orange;">**Medium**<span>
+
 ### GUI - Stimulus/Response Sequences
 
+(Refer to GUI SDD)
+
 ### GUI - Functional Requirements
+
+- Authentication and Handling of User Login
+- Handle Client side requests via API
+- GUI Functions to List/Add/Remove/Modify Users/Customers/Hotels/Rooms
+- Log Connections, Messages and Operations with Timestamp Locally
 
 ---
 
@@ -214,6 +256,8 @@ The would be a finite number of rooms and be used for a small number of Hotels, 
 # External Interface Requirements
 
 ## User Interfaces
+
+GUI shall be provided by the Client Side application, and the same must be usable via mouse/touchscreen and keyboard.
 
 ## Hardware Interfaces
 
@@ -225,9 +269,9 @@ The following software(s) and/or libraries shall be used for the project:
 
 - _Java Platform with Maven:_ For compilation, building and running the projects.
 - _JavaFX:_ To enable GUI on Java Platform.
-- _PostgreSQL:_ For RDBMS.
+- _PostgreSQL:_ For Database.
 - _Spring Boot Framework:_ For back-end server.
-- _PostgreSQL JDBC Driver:_ To connect the Java-based project to RDBMS.
+- _PostgreSQL JDBC Driver:_ To connect the Java-based project to Database.
 
 ## Communication Interfaces
 
@@ -241,11 +285,19 @@ To enable server-client communication, network is necessary. The server and the 
 
 ## Performance Requirements
 
+None spectified at the time of writing SRS.
+
 ## Safety Requirements
+
+None spectified at the time of writing SRS.
 
 ## Security Requirements
 
+Encryption of User credentials and customer details via Military Grade Encryption Algorithms.
+
 ## Software Quality Attributes
+
+None spectified at the time of writing SRS.
 
 ## Miscellanous Requirements
 
