@@ -63,6 +63,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 | Date       | Version | Description                                       | Author(s)       |
 | ---------- | ------- | ------------------------------------------------- | --------------- |
+| 11-02-2024 | 0.6.0   | Added Overall Description                         | Soumyajit Kolay |
 | 04-02-2024 | 0.5.1   | Updated Interfaces, Removed unneccessary portions | Soumyajit Kolay |
 | 04-02-2034 | 0.5.0   | Added external interfaces                         | Saurav Kumar    |
 | 04-02-2024 | 0.4.0   | Added Acronyms and Abbreviations                  | Saurav Kumar    |
@@ -130,10 +131,12 @@ This project is intended to be used only for demonstration of our technical skil
 
 ## Acronyms and Abbreviations
 
-| Term  | Description             |
-| ----- | ----------------------- |
-| HMS   | Hotel Management System |
-| Rooms | Hotem Rooms             |
+| Term      | Description                                  |
+| --------- | -------------------------------------------- |
+| HMS       | Hotel Management System                      |
+| Hotel     | Hotels/Lounges/Resorts/Guest Houses          |
+| Rooms     | Rooms of Hotels/Lounges/Resorts/Guest Houses |
+| Customers | People staying in Hotel Rooms                |
 
 ---
 
@@ -143,17 +146,39 @@ This project is intended to be used only for demonstration of our technical skil
 
 ## Product Perspective
 
+This project serves as a combination of softwares meant to digitalize Hotels, Lounges, Resorts and Guest Houses to help keep a track of their rooms and customers staying in their rooms, and help execute related business functions. This project also serves as a major improvement of "EasyHMS", which was a CLI-based barebones project.
+
 ## Product Features
+
+Refer to [System Features](#system-features).
 
 ## User Classes and Characteristics
 
+Users are supposed to be managers and/or staff of the Group of Hotels/Lounges/Resorts/Guest Houses. Users should belong to either of the 3 classes:
+
+- _System Administrator:_ would be granted all rights of the Administrator, and the right to add/delete/modify users
+- _Administrators:_ would be granted all rights of the Managers, and the right to add/delete rooms
+- _Managers:_ would be only able to register new customer and checkout existing customers
+
 ## Operating Environment
+
+- _Server:_ A multi-core machine/VM/Container running Java Runtime Environment v17 or later, and PostgreSQL (preferably EDB Distribution) v15 or later. No GPU or GUI capabilities required.
+- _Client Machines:_ Preferably a Dual Core Windows/Linux/mac system running Java Runtime Environment v17 or later, with a Monitor, mouse and keyboard. Requires a minimum of integrated GPU connected to a display of (minimum) 1024x768 resolution to support the software's GUI. Touchscreen functionalities might be present to aid the users.
 
 ## Design and Implementation Constraints
 
+The lack of real customers to ensure customer acceptance and/or clear requirements might reduce the overall usability of the project. No maintenance or support is guaranteed to be delivered by the developers of this project, apart from the documentation, source code and the binary distribution on a hosted Git Platform.
+
+Limited scalability of the software might reduce the performance or hinder the enterprise-oriented functions if the used for a large Organisation comprising of a huge number of Hotels and/or hotel rooms.
+
 ## User Documentation
 
+- Client side user manual
+- Server hosting guide
+
 ## Assumptions and Dependencies
+
+The would be a finite number of rooms and be used for a small number of Hotels, if not singular.The uptime, server availability and disaster recovery shall be handled by the Organisation(s) using this software product.
 
 ---
 
