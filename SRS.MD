@@ -12,11 +12,11 @@
 
 <div style="margin-left: auto; margin-right: auto; width: 70%">
 
-| Document ID:    | SOFTWARE-REQUIREMENT-SPECIFICATION-V0.2.0 |
+| Document ID:    | SOFTWARE-REQUIREMENT-SPECIFICATION-V0.6.3 |
 | --------------- | ----------------------------------------- |
-| Version Number: | 0.5.1                                     |
-| Issue Date:     | TBA                                       |
-| Classification: | Draft                                     |
+| Version Number: | 0.6.3                                     |
+| Issue Date:     | February 11, 2024                         |
+| Classification: | Final                                     |
 
 </div>
 
@@ -61,18 +61,19 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 # Revision History
 
-| Date       | Version | Description                                                         | Author(s)                     |
-| ---------- | ------- | ------------------------------------------------------------------- | ----------------------------- |
-| 11-02-2024 | 0.6.1   | Added Requirements, Updated Contents and Reviewed SRS with Saurav   | Soumyajit Kolay, Saurav Kumar |
-| 11-02-2024 | 0.6.1   | Minor Changes in System Features and Requirements                   | Soumyajit Kolay               |
-| 11-02-2024 | 0.6.0   | Added Overall Description                                           | Soumyajit Kolay               |
-| 04-02-2024 | 0.5.1   | Updated Interfaces, Removed unneccessary portions                   | Soumyajit Kolay               |
-| 04-02-2034 | 0.5.0   | Added external interfaces                                           | Saurav Kumar                  |
-| 04-02-2024 | 0.4.0   | Added Acronyms and Abbreviations                                    | Saurav Kumar                  |
-| 03-02-2024 | 0.3.0   | Added intended audience                                             | Saurav Kumar                  |
-| 01-02-2024 | 0.2.0   | Added Proposal, scope and removed references                        | Saurav Kumar                  |
-| 28-01-2024 | 0.1.1   | Added ToC, License, and Minor Template Changes                      | Soumyajit Kolay               |
-| 27-01-2024 | 0.1.0   | Baseline SRS Template Added                                         | Soumyajit Kolay               |
+| Date       | Version | Description                                                                                | Author(s)                     |
+| ---------- | ------- | ------------------------------------------------------------------------------------------ | ----------------------------- |
+| 11-02-2024 | 0.6.3   | Finalised SRS, Added Encryption Details to Security Requirements, Minor Version Correction | Soumyajit Kolay               |
+| 11-02-2024 | 0.6.2   | Added Requirements, Updated Contents and Reviewed SRS with Saurav                          | Soumyajit Kolay, Saurav Kumar |
+| 11-02-2024 | 0.6.1   | Minor Changes in System Features and Requirements                                          | Soumyajit Kolay               |
+| 11-02-2024 | 0.6.0   | Added Overall Description                                                                  | Soumyajit Kolay               |
+| 04-02-2024 | 0.5.1   | Updated Interfaces, Removed unneccessary portions                                          | Soumyajit Kolay               |
+| 04-02-2034 | 0.5.0   | Added external interfaces                                                                  | Saurav Kumar                  |
+| 04-02-2024 | 0.4.0   | Added Acronyms and Abbreviations                                                           | Saurav Kumar                  |
+| 03-02-2024 | 0.3.0   | Added intended audience                                                                    | Saurav Kumar                  |
+| 01-02-2024 | 0.2.0   | Added Proposal, scope and removed references                                               | Saurav Kumar                  |
+| 28-01-2024 | 0.1.1   | Added ToC, License, and Minor Template Changes                                             | Soumyajit Kolay               |
+| 27-01-2024 | 0.1.0   | Baseline SRS Template Added                                                                | Soumyajit Kolay               |
 
 <div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
@@ -293,7 +294,7 @@ None spectified at the time of writing SRS.
 
 ## Security Requirements
 
-Encryption of User credentials and customer details via Military Grade Encryption Algorithms.
+Encryption of User credentials via BCrypt Password Hashing and Customer Details with AES128 Encryption.
 
 ## Software Quality Attributes
 
