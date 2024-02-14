@@ -10,9 +10,9 @@
 
 <div style="margin-left: auto; margin-right: auto; width: 70%">
 
-| Document ID:    | SOFTWARE-DESIGN-DOCUMENT-V0.0.1 |
+| Document ID:    | SOFTWARE-DESIGN-DOCUMENT-V0.0.2 |
 | --------------- | ------------------------------- |
-| Version Number: | 0.0.1                           |
+| Version Number: | 0.0.2                           |
 | Issue Date:     | TBA                             |
 | Classification: | Template                        |
 
@@ -26,9 +26,10 @@
 
 ## Revision History
 
-| Date        | Version | Description          | Author(s)       |
-| ----------- | ------- | -------------------- | --------------- |
-| 12 Feb 2024 | v0.0.1  | Initial SDD Template | Soumyajit Kolay |
+| Date        | Version | Description           | Author(s)       |
+| ----------- | ------- | --------------------- | --------------- |
+| 14 Feb 2024 | v0.0.2  | SDD Template Overhaul | Soumyajit Kolay |
+| 12 Feb 2024 | v0.0.1  | Initial SDD Template  | Soumyajit Kolay |
 
 <div style="page-break-after: always; visibility: hidden; color: #000;">\pagebreak</div>
 
@@ -89,27 +90,95 @@ TBA
 
 ### 3.1 Architectural Design
 
-### 3.2 Decomposition Description
+### 3.2 Architectural Description
+
+#### 3.2.1 Presentation Layer
+
+- Explain GUI design in brief here
+
+#### 3.2.2 Business Logic Layer
+
+- Explain backend design in brief here
+
+#### 3.2.3 Data Layer
+
+- Explain DB design in brief here
 
 ## 4 DATA DESIGN
 
 ### 4.1 Data Description
 
-### 4.2 Data Dictionary
+- DB Schema
 
-## 5. COMPONENT DESIGN
+### 4.2 Data Relationships
+
+- ER Models
+
+## 5. BACKEND DESIGN
+
+- List of functions
 
 ## 6. HUMAN INTERFACE DESIGN
 
 ### 6.1 Overview of User Interface
 
-### 6.2 Screen Images
+### 6.2 Login Screen
 
-### 6.3 Screen Objects and Actions
+- Insert Wireframe/Mockup here
+- Brief explanation of UI functions
+
+### 6.2 Dashboard
+
+- Insert Wireframe/Mockup here
+- Brief explanation of UI functions
+-- Upcoming Checkouts List
+-- Upcoming Guests List
+
+### 6.3 Account Management
+
+- Insert Wireframe/Mockup here
+- Brief explanation of UI functions
+
+### 6.4 Network Configurations Dialog
+
+- Insert Wireframe/Mockup here
+- Brief explanation of UI functions
+
+### 6.5 Hotel Guest Reservation List
+
+- Insert Wireframe/Mockup here
+- Brief explanation of UI functions
+
+### 6.6 Hotel Guest Reservation Dialog
+
+- Insert Wireframe/Mockup here
+- Brief explanation of UI functions
+
+### 6.7 Hotel Guest Checkout Dialog
+
+- Insert Wireframe/Mockup here
+- Brief explanation of UI functions
+
+### 6.8 Hotel Guest Modification Dialog
+
+- Insert Wireframe/Mockup here
+- Brief explanation of UI functions
+
+### 6.9 Hotel Rooms Status List
+
+- Insert Wireframe/Mockup here
+- Brief explanation of UI functions
+
+### 6.6 Hotel Room Config Dialog
+
+- Insert Wireframe/Mockup here
+- Brief explanation of UI functions
 
 ## 7 REQUIREMENTS MATRIX
 
-## 8 APPENDICES
+(Refer to Traceability Matrix)
+
+## 8 APPENDIX
 
 ---
 Copyright © 2024, Soumyajit Kolay and Saurav Kumar.
